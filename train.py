@@ -20,18 +20,19 @@ duplicate_values=df.duplicated().sum()
 
 # MATPLOT
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-category_count=df["Category"].value_counts()
+# category_count=df["Category"].value_counts()
 
-plt.figure(figsize=(8,5))
+# plt.figure(figsize=(8,5))
 
-plt.bar(category_count.index,category_count.values)
+# plt.bar(category_count.index,category_count.values)
 
-plt.title("Complaint Categorizing")
+# plt.title("Complaint Categorizing")
 
-plt.xlabel("Category")
+# plt.xlabel("Category")
 
-plt.ylabel("Number of Complaints")
+# plt.ylabel("Number of Complaints")
 
-plt.show()
+# plt.show()
+
